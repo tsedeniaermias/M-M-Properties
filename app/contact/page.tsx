@@ -1,14 +1,14 @@
-import Image from 'next/image'
+import Image from "next/image";
 
 export default function Contact() {
   return (
     <div>
       <div className="relative h-[40vh] mb-8">
-        <Image 
-          src="/Flag_of_the_British_Virgin_Islands.svg" 
-          alt="Contact Us Banner" 
-          fill 
-          style={{objectFit: "cover"}}
+        <Image
+          src="/Flag_of_the_British_Virgin_Islands.svg"
+          alt="Contact Us Banner"
+          fill
+          style={{ objectFit: "cover" }}
           priority
         />
         <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
@@ -26,33 +26,36 @@ export default function Contact() {
               <div>
                 <p className="font-semibold mb-2">Email:</p>
                 <p className="text-gray-600 mb-4">welcome@mmsuites.vg</p>
-                
+
                 <p className="font-semibold mb-2">Phone:</p>
                 <p className="text-gray-600 mb-4">+1 (284) 495-5054</p>
               </div>
               <div>
                 <p className="font-semibold mb-2">Address:</p>
                 <p className="text-gray-600 mb-4">
-                Spanish town Virgin Gorda<br />
-                 BVI
+                  Spanish town Virgin Gorda
+                  <br />
+                  BVI
                 </p>
-                
+
                 <p className="font-semibold mb-2">Hours:</p>
                 <p className="text-gray-600 mb-4">
-                Monday - Saturday: 3pm - 10pm<br />
-                  
+                  Monday - Saturday: 3pm - 10pm
+                  <br />
                 </p>
               </div>
             </div>
           </div>
-          
+
           <div className="text-center mt-8">
             <p className="text-xl">We look forward to hearing from you!</p>
-            <p className="mt-2 text-gray-600">For pricing inquiries or any questions, please don't hesitate to reach out.</p>
+            <p className="mt-2 text-gray-600">
+              For pricing inquiries or any questions, please don&apos;t hesitate
+              to reach out.
+            </p>
           </div>
         </div>
       </div>
     </div>
-  )
+  );
 }
-
