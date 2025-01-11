@@ -9,7 +9,7 @@ const activities = [
   {
     name: "Local Cuisine",
     description:
-      "Taste the flavors of our city at nearby restaurants and food markets.",
+      "Taste the flavors of our Island at nearby restaurants and food markets.",
   },
   {
     name: "Shopping",
@@ -44,7 +44,7 @@ export default function ThingsToDo() {
         <div>
           <Image
             src="/placeholder.svg"
-            alt="City Overview"
+            alt="Island Overview"
             width={600}
             height={400}
             className="rounded-lg shadow-md"
@@ -55,7 +55,7 @@ export default function ThingsToDo() {
             Explore Our Vibrant City
           </h2>
           <p className="text-gray-600 mb-4">
-            Our luxury suite is located in the heart of the city, providing easy
+            Our suite is located in the heart of the city, providing easy
             access to a wide range of activities and attractions. Whether
             you&apos;re interested in culture, cuisine, or outdoor adventures,
             there&apos;s something for everyone just steps from our door.

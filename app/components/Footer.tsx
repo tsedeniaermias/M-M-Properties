@@ -103,7 +103,7 @@ const Footer = () => {
         </div>
         <div className="mt-8 border-t border-gray-700 pt-8 text-center">
           <p className="text-sm">
-            &copy; {new Date().getFullYear()} Luxury Airbnb Suite. All rights
+            &copy; {new Date().getFullYear()} M&M Apartment Suites. All rights
             reserved.
           </p>
         </div>

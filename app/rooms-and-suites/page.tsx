@@ -91,7 +91,7 @@ export default function RoomsAndSuites() {
             <svg className="h-5 w-5 mr-2 text-green-500" fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" stroke="currentColor">
               <path d="M5 13l4 4L19 7"></path>
             </svg>
-            Flat-screen TV with cable
+            Flat-screen TV
           </li>
           <li className="flex items-center">
             <svg className="h-5 w-5 mr-2 text-green-500" fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" stroke="currentColor">
@@ -100,10 +100,10 @@ export default function RoomsAndSuites() {
             Living area
           </li>
           <li className="flex items-center">
-            <svg className="h-5 w-5 mr-2 text-green-500" fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" stroke="currentColor">
+            {/* <svg className="h-5 w-5 mr-2 text-green-500" fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" stroke="currentColor">
               <path d="M5 13l4 4L19 7"></path>
             </svg>
-            Washer/Dryer
+            Washer/Dryer */}
           </li>
         </ul>
       </div>
