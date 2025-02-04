@@ -1,7 +1,7 @@
 import Image from 'next/image'
 
 const activities = [
-  { name: 'City Tours', description: 'Explore the city\'s rich history and culture with guided tours.' },
+  { name: 'City Tours', description: 'Explore the city&apos;s rich history and culture with guided tours.' },
   { name: 'Local Cuisine', description: 'Taste the flavors of our city at nearby restaurants and food markets.' },
   { name: 'Shopping', description: 'Visit local boutiques and shopping centers for a unique retail experience.' },
   { name: 'Outdoor Activities', description: 'Enjoy parks, hiking trails, and outdoor sports in the surrounding area.' },
@@ -22,7 +22,7 @@ export default function ThingsToDo() {
           <h2 className="text-2xl font-semibold mb-4">Explore Our Vibrant City</h2>
           <p className="text-gray-600 mb-4">
             Our luxury suite is located in the heart of the island, providing easy access to a wide range of activities and attractions. 
-            Whether you're interested in culture, cuisine, or outdoor adventures, there's something for everyone just steps from our door.
+            Whether you&apos;re interested in culture, cuisine, or outdoor adventures, there&apos;s something for everyone just steps from our door.
           </p>
         </div>
       </div>
@@ -40,10 +40,9 @@ export default function ThingsToDo() {
         <h2 className="text-2xl font-semibold mb-4">Need Recommendations?</h2>
         <p className="text-gray-600 mb-4">
           Our concierge team is always available to provide personalized recommendations and help you plan your perfect itinerary. 
-          Don't hesitate to ask us about hidden gems and local favorites!
+          Don&apos;t hesitate to ask us about hidden gems and local favorites!
         </p>
       </div>
     </div>
   )
 }
-
