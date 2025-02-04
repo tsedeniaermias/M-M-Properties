@@ -68,7 +68,7 @@ export default function CancellationPolicy() {
 
             <div className="mt-8 p-6 bg-gray-100 rounded-lg">
               <p className="text-gray-700">
-                For any questions or concerns regarding our cancellation policy, please don't hesitate to contact us.
+                For any questions or concerns regarding our cancellation policy, please don`&apos;t hesitate to contact us.
               </p>
             </div>
           </div>
