@@ -9,7 +9,7 @@ const Footer = () => {
           <div className="mb-6 md:mb-0">
             <Link href="/" className="flex items-center">
               <Image
-                src="/MM_logo-removebg-preview.png"
+                src="/mm.png"
                 alt="Logo"
                 width={50}
                 height={50}
@@ -43,6 +43,16 @@ const Footer = () => {
               <li>
                 <Link href="/contact" className="hover:text-gray-300">
                   Contact
+                </Link>
+              </li>
+              <li>
+                <Link href="/terms-and-conditions" className="hover:text-gray-300">
+                  Terms and Conditions
+                </Link>
+              </li>
+              <li>
+                <Link href="/cancellation-policy" className="hover:text-gray-300">
+                  Cancellation Policy
                 </Link>
               </li>
             </ul>
@@ -103,7 +113,7 @@ const Footer = () => {
         </div>
         <div className="mt-8 border-t border-gray-700 pt-8 text-center">
           <p className="text-sm">
-            &copy; {new Date().getFullYear()} M&M Apartment Suites. All rights
+            &copy; {new Date().getFullYear()} Luxury Airbnb Suite. All rights
             reserved.
           </p>
         </div>
