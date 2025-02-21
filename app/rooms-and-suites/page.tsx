@@ -4,8 +4,8 @@ import Link from 'next/link'
 const rooms = [
   {
     name: 'Single BedRoom Suite',
-    description: 'Spacious suite with breathtaking ocean views, a king-size bed, and a private balcony.',
-    amenities: ['Ocean view', 'King-size bed', 'Private balcony', 'En-suite bathroom', 'Free Wi-Fi', 'King/Queen beds'],
+    description: 'Spacious suite for families, a king-size bed, and a private balcony.',
+    amenities: ['King-size bed', 'Private balcony', 'Private bathroom', 'Free Wi-Fi', 'King/Queen beds'],
     maxOccupancy: 2,
   },
   {
@@ -91,7 +91,7 @@ export default function RoomsAndSuites() {
             <svg className="h-5 w-5 mr-2 text-green-500" fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" stroke="currentColor">
               <path d="M5 13l4 4L19 7"></path>
             </svg>
-            Flat-screen TV with cable
+            Flat screen with Satellite
           </li>
           <li className="flex items-center">
             <svg className="h-5 w-5 mr-2 text-green-500" fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" stroke="currentColor">

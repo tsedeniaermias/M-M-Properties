@@ -1,8 +1,8 @@
 import Image from 'next/image'
 
 const activities = [
-  { name: 'City Tours', description: 'Explore the city&apos;s rich history and culture with guided tours.' },
-  { name: 'Local Cuisine', description: 'Taste the flavors of our city at nearby restaurants and food markets.' },
+  { name: 'City Tours', description: 'Explore the island&apos;s rich history and culture with guided tours.' },
+  { name: 'Local Cuisine', description: 'Taste the flavors of our island at nearby restaurants and food markets.' },
   { name: 'Shopping', description: 'Visit local boutiques and shopping centers for a unique retail experience.' },
   { name: 'Outdoor Activities', description: 'Enjoy parks, hiking trails, and outdoor sports in the surrounding area.' },
   { name: 'Nightlife', description: 'Experience the vibrant nightlife with bars, clubs, and entertainment venues.' },
@@ -19,7 +19,7 @@ export default function ThingsToDo() {
           <Image src="/placeholder.svg" alt="City Overview" width={600} height={400} className="rounded-lg shadow-md" />
         </div>
         <div className="flex flex-col justify-center">
-          <h2 className="text-2xl font-semibold mb-4">Explore Our Vibrant City</h2>
+          <h2 className="text-2xl font-semibold mb-4">Explore Our Vibrant island</h2>
           <p className="text-gray-600 mb-4">
             Our luxury suite is located in the heart of the island, providing easy access to a wide range of activities and attractions. 
             Whether you&apos;re interested in culture, cuisine, or outdoor adventures, there&apos;s something for everyone just steps from our door.

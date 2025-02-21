@@ -68,7 +68,7 @@ export default function Home() {
           <div className="bg-gray-100 p-6 rounded-lg shadow">
             <h3 className="text-xl font-semibold mb-2">Prime Location</h3>
             <p className="text-gray-600">
-              Situated in the heart of the city, close to major attractions and
+              Situated in the heart of the island, close to major attractions and
               amenities.
             </p>
           </div>
