@@ -33,7 +33,7 @@ export default function RoomsAndSuites() {
           <div key={index} className="bg-white rounded-lg shadow-md overflow-hidden">
             <div className="md:flex">
               <div className="md:flex-shrink-0">
-                <Image src="/front_1.JPG" alt={room.name} width={400} height={300} className="h-full w-full object-cover md:w-48" />
+                <Image src="/bedroom_1.jpg" alt={room.name} width={400} height={300} className="h-full w-full object-cover md:w-48" />
               </div>
               <div className="p-8">
                 <div className="uppercase tracking-wide text-sm text-indigo-500 font-semibold">{room.name}</div>

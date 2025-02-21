@@ -4,12 +4,12 @@ import Link from "next/link";
 const roomTypes = [
   {
     name: "1 Bedroom Suite",
-    image: "/bedroom_1.JPG",
+    image: "/front_1.JPG",
     description: "Perfect for couples or solo travelers",
   },
   {
     name: "2 Bedroom Suite",
-    image: "/bedroom_2.JPG",
+    image: "/front_1.JPG",
     description: "Ideal for small families or groups",
   },
   // { name: '3 Bedroom Suite', image: '/placeholder.svg', description: 'Spacious accommodation for larger groups' },
