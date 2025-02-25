@@ -137,8 +137,8 @@ export default function ThingsToDo() {
       <div className="container mx-auto px-4 py-16">
         <div className="prose max-w-none mb-16">
           <p className="text-lg text-gray-700 leading-relaxed">
-            Discover the beauty and adventure that Virgin Gorda has to offer. Whether you're looking for relaxation or
-            excitement, there's something for everyone.
+            Discover the beauty and adventure that Virgin Gorda has to offer. Whether you&apos;re looking for relaxation or
+            excitement, there&apos;s something for everyone.
           </p>
         </div>
 
