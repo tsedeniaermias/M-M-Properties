@@ -10,7 +10,7 @@ const activities = [
       {
         name: "The Baths",
         description: "Walk through giant granite boulders, hidden caves, and crystal-clear pools.",
-        link: "https://www.bvitourism.com/the-baths",
+        link: "https://www.bvinpt.org/the-baths",
         image: "/placeholder.svg",
       },
       {
@@ -41,7 +41,7 @@ const activities = [
         name: "Copper Mine Ruins",
         description:
           "Visit this historic 19th-century copper mine, offering a glimpse into the island's past with stunning coastal views.",
-        link: "https://www.bvitourism.com/copper-mine",
+        link: "https://www.bvinpt.org/copper-mine",
         image: "/placeholder.svg",
       },
     ],

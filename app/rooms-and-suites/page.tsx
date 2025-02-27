@@ -11,7 +11,7 @@ const rooms = [
   {
     name: 'Double BedRoom Suite',
     description: 'Perfect for families, with two bedrooms, a living area, and a fully equipped kitchen.',
-    amenities: ['Two bedrooms', 'Living area', 'Full kitchen', 'Private balcony','Washer/Dryer', 'Free Wi-Fi', 'Queen/King beds'],
+    amenities: ['Two bedrooms', 'Living area', 'Full kitchen', 'Private balcony','Free Wi-Fi', 'Queen/King beds'],
     maxOccupancy: 4,
   },
   // {
