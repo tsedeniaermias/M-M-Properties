@@ -39,7 +39,7 @@ export default function Home() {
             <h2 className="text-2xl md:text-3xl font-semibold mb-4">
               Experience Comfort and Style
             </h2>
-            <p className="text-gray-600 mb-6">
+            <p className="text-white-600 mb-6">
               Our M&M Properties suite offers the perfect blend of comfort and
               elegance. Enjoy spacious rooms, modern amenities, and a prime
               location for your perfect getaway.
@@ -67,21 +67,21 @@ export default function Home() {
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
           <div className="bg-gray-800 p-6 rounded-lg shadow">
             <h3 className="text-xl font-semibold mb-2">Prime Location</h3>
-            <p className="text-gray-600">
+            <p className="text-white-600">
               Situated in the heart of the island, close to major attractions and
               amenities.
             </p>
           </div>
           <div className="bg-gray-800 p-6 rounded-lg shadow">
             <h3 className="text-xl font-semibold mb-2">Modern Amenities</h3>
-            <p className="text-gray-600">
+            <p className="text-white-600">
               Enjoy high-speed Wi-Fi, smart TVs, and fully equipped kitchens in
               all our suites.
             </p>
           </div>
           <div className="bg-gray-800 p-6 rounded-lg shadow">
             <h3 className="text-xl font-semibold mb-2">Exceptional Service</h3>
-            <p className="text-gray-600">
+            <p className="text-white-600">
               Our dedicated team is available 24/7 to ensure your stay is
               perfect.
             </p>
@@ -101,7 +101,7 @@ export default function Home() {
                     alt={room.name}
                     width={400}
                     height={300}
-                    className="w-full h-48 object-cover"
+                    className="w-full object-cover"
                   />
                   <div className="p-4">
                     <h3 className="text-xl font-semibold mb-2">{room.name}</h3>

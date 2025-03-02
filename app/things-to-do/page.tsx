@@ -68,7 +68,7 @@ const restaurants = [
     name: "Top of the Baths",
     description: "A great post-hike spot with ocean views, fresh seafood, and refreshing drinks.",
     link: "https://www.topofthebaths.com",
-    image: "/placeholder.svg",
+    image: "/top-of-the-bath.jpg",
     tags: ["Seafood", "Ocean Views", "Casual Dining"],
   },
   {
@@ -119,8 +119,8 @@ const restaurants = [
 export default function ThingsToDo() {
   return (
     <div className="bg-gray-900 min-h-screen text-white">
-      <div className="relative h-[60vh]">
-        <Image src="/VG.jpg" alt="Virgin Gorda Panorama" fill className="object-cover" priority />
+      <div className="relative h-[90vh]">
+        <Image src="/VG_1.jpg" alt="Virgin Gorda Panorama" fill className="object-cover" priority />
         <div className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white text-center px-4">
             Things to Do on Virgin Gorda, BVI
@@ -149,7 +149,7 @@ export default function ThingsToDo() {
                   key={index}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="block bg-white rounded-lg shadow-lg overflow-hidden transform transition duration-300 hover:scale-105"
+                  className="block bg-white rounded-lg  overflow-hidden transform transition duration-300 hover:scale-105"
                 >
                   <div className="relative h-48">
                     <Image
@@ -187,7 +187,7 @@ export default function ThingsToDo() {
                   key={index}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="group block bg-white rounded-lg shadow-lg overflow-hidden transform transition duration-300 hover:scale-105"
+                  className="group block bg-white rounded-lg  overflow-hidden transform transition duration-300 hover:scale-105"
                 >
                   <div className="relative h-48">
                     <Image

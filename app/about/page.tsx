@@ -17,7 +17,7 @@ export default function About() {
         </div>
         <div>
           <h2 className="text-2xl font-semibold mb-4">Our Story</h2>
-          <p className="text-gray-600 mb-4">
+          <p className="text-white-600 mb-4">
             M&M Apartment Suites is more than just a place to stay, it&apos;s a
             homegrown vision brought to life by a husband and wife team,
             dedicated to providing warm hospitality in the heart of Spanish
@@ -32,7 +32,7 @@ export default function About() {
             a family vacation, our goal is to make your stay as comfortable and
             memorable as possible.
           </p>
-          <p className="text-gray-600 mb-4">
+          <p className="text-white-600 mb-4">
             Adding to the experience, our M&M Bakery, located right next to the
             apartments, is a beloved local gem. Open from 6 PM to 11 AM daily
             (except Saturday nights), it serves up fresh, homemade treats and
@@ -43,7 +43,7 @@ export default function About() {
       </div>
 
       <div className="bg-gray-100 p-6 rounded-lg shadow mb-8">
-        <h2 className="text-2xl font-semibold mb-4">Our Commitment</h2>
+        <h2 className="text-2xl text-black font-semibold mb-4">Our Commitment</h2>
         <p className="text-gray-600 mb-4">
           At M&M Apartment Suites, we take pride in offering a personal touch,
           treating every guest like family. From the moment you arrive,
@@ -54,7 +54,7 @@ export default function About() {
 
       <div className="grid md:grid-cols-3 gap-8">
         <div className="bg-white p-6 rounded-lg shadow">
-          <h3 className="text-xl font-semibold mb-2">Sustainability</h3>
+          <h3 className="text-xl font-semibold text-black mb-2">Sustainability</h3>
           <p className="text-gray-600">
             Our suites feature energy-efficient lighting, water-saving fixtures,
             and eco-friendly cleaning products. We prioritize locally sourced,
@@ -63,7 +63,7 @@ export default function About() {
           </p>
         </div>
         <div className="bg-white p-6 rounded-lg shadow">
-          <h3 className="text-xl font-semibold mb-2">
+          <h3 className="text-xl font-semibold text-black mb-2">
             Our Other Business – M&M Bakery
           </h3>
           <p className="text-gray-600">
@@ -75,7 +75,7 @@ export default function About() {
           </p>
         </div>
         <div className="bg-white p-6 rounded-lg shadow">
-          <h3 className="text-xl font-semibold mb-2">Continuous Improvement</h3>
+          <h3 className="text-xl font-semibold text-black mb-2">Continuous Improvement</h3>
           <p className="text-gray-600">
             We are committed to providing the best experience for our guests by
             continuously refining our services. Through guest feedback and

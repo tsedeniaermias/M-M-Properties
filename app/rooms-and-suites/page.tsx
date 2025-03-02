@@ -33,7 +33,7 @@ export default function RoomsAndSuites() {
           <div key={index} className="bg-white rounded-lg shadow-md overflow-hidden">
             <div className="md:flex">
               <div className="md:flex-shrink-0">
-                <Image src="/bedroom_2.jpg" alt={room.name} width={400} height={300} className="h-full w-full object-cover md:w-48" />
+                <Image src="/bedroom_2.jpg" alt={room.name} width={400} height={300} className="h-full w-full object-cover" />
               </div>
               <div className="p-8">
                 <div className="uppercase tracking-wide text-sm text-indigo-500 font-semibold">{room.name}</div>
@@ -67,8 +67,8 @@ export default function RoomsAndSuites() {
       </div>
 
       <div className="mt-12 bg-gray-100 p-6 rounded-lg shadow">
-        <h2 className="text-2xl font-semibold mb-4">All Suites Include:</h2>
-        <ul className="grid md:grid-cols-2 gap-4">
+        <h2 className="text-2xl text-black font-semibold mb-4">All Suites Include:</h2>
+        <ul className="grid md:grid-cols-2 text-black gap-4">
           <li className="flex items-center">
             <svg className="h-5 w-5 mr-2 text-green-500" fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" stroke="currentColor">
               <path d="M5 13l4 4L19 7"></path>

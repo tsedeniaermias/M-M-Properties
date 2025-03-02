@@ -46,12 +46,18 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link href="/terms-and-conditions" className="hover:text-gray-300">
+                <Link
+                  href="/terms-and-conditions"
+                  className="hover:text-gray-300"
+                >
                   Terms and Conditions
                 </Link>
               </li>
               <li>
-                <Link href="/cancellation-policy" className="hover:text-gray-300">
+                <Link
+                  href="/cancellation-policy"
+                  className="hover:text-gray-300"
+                >
                   Cancellation Policy
                 </Link>
               </li>
@@ -113,8 +119,7 @@ const Footer = () => {
         </div>
         <div className="mt-8 border-t border-gray-700 pt-8 text-center">
           <p className="text-sm">
-            &copy; {new Date().getFullYear()} Airbnb Suite. All rights
-            reserved.
+            &copy; {new Date().getFullYear()} Airbnb Suite. All rights reserved.
           </p>
         </div>
       </div>
