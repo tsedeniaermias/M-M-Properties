@@ -17,7 +17,7 @@ const roomTypes = [
 
 export default function Home() {
   return (
-    <div>
+    <div className="bg-gray-900 min-h-screen text-white">
       <div className="relative h-[50vh] md:h-[60vh] lg:h-[70vh]">
         <Image
           src="/banner.webp"
@@ -65,21 +65,21 @@ export default function Home() {
         </div>
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
-          <div className="bg-gray-100 p-6 rounded-lg shadow">
+          <div className="bg-gray-800 p-6 rounded-lg shadow">
             <h3 className="text-xl font-semibold mb-2">Prime Location</h3>
             <p className="text-gray-600">
               Situated in the heart of the island, close to major attractions and
               amenities.
             </p>
           </div>
-          <div className="bg-gray-100 p-6 rounded-lg shadow">
+          <div className="bg-gray-800 p-6 rounded-lg shadow">
             <h3 className="text-xl font-semibold mb-2">Modern Amenities</h3>
             <p className="text-gray-600">
               Enjoy high-speed Wi-Fi, smart TVs, and fully equipped kitchens in
               all our suites.
             </p>
           </div>
-          <div className="bg-gray-100 p-6 rounded-lg shadow">
+          <div className="bg-gray-800 p-6 rounded-lg shadow">
             <h3 className="text-xl font-semibold mb-2">Exceptional Service</h3>
             <p className="text-gray-600">
               Our dedicated team is available 24/7 to ensure your stay is

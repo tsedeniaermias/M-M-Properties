@@ -25,7 +25,7 @@ export default function About() {
             and community, our suites offer a welcoming retreat for visitors
             looking to experience the island&apos;s beauty with the convenience
             of modern amenities. With eight one-bedroom units and two
-            two-bedroom units, each thoughtfully designed with air conditioning,
+            two-bedroom units, each designed with air conditioning,
             wireless internet, satellite TV, and a full kitchen, we ensure that
             our guests feel right at home.
             <br />  <br />Whether you&apos;re here for business, a romantic getaway, or

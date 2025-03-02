@@ -8,8 +8,8 @@ import Footer from './components/Footer'
 export const fontOutfit = Outfit({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Luxury Airbnb Suite',
-  description: 'Experience comfort and style in our luxury Airbnb suite',
+  title: 'M&M Apartment Suites',
+  description: 'Experience comfort and style in our Airbnb suite',
 }
 
 export default function RootLayout({

@@ -11,7 +11,7 @@ const activities = [
         name: "The Baths",
         description: "Walk through giant granite boulders, hidden caves, and crystal-clear pools.",
         link: "https://www.bvinpt.org/the-baths",
-        image: "/placeholder.svg",
+        image: "/The Baths.jpg",
       },
       {
         name: "Snorkeling & Diving",
@@ -53,8 +53,8 @@ const restaurants = [
     name: "CocoMaya",
     description:
       "A stylish beachfront restaurant with Asian-Latin fusion cuisine, craft cocktails, and a cozy fire pit.",
-    link: "https://cocomayarestaurant.com",
-    image: "/placeholder.svg",
+    link: "/things-to-do",
+    image: "/cocomaya_2.jpg",
     tags: ["Asian-Latin Fusion", "Beachfront", "Cocktails"],
   },
   {
@@ -75,7 +75,7 @@ const restaurants = [
     name: "Nova Oil Nut Bay",
     description: "A stunning overwater restaurant, perfect for brunches with breathtaking marina views.",
     link: "https://oilnutbay.com/dining",
-    image: "/placeholder.svg",
+    image: "/nova_oil_1.jpg",
     tags: ["Brunch", "Marina Views", "Upscale"],
   },
   {
@@ -113,20 +113,14 @@ const restaurants = [
     image: "/placeholder.svg",
     tags: ["Casual", "Burgers", "Local Favorite"],
   },
-  {
-    name: "Mad Dog Bar & Grill",
-    description: "Perfect for a laid-back afternoon drink near The Baths.",
-    link: "#",
-    image: "/placeholder.svg",
-    tags: ["Bar & Grill", "Casual", "Beach Views"],
-  },
+  
 ]
 
 export default function ThingsToDo() {
   return (
-    <div className="bg-gray-50 min-h-screen">
+    <div className="bg-gray-900 min-h-screen text-white">
       <div className="relative h-[60vh]">
-        <Image src="/placeholder.svg" alt="Virgin Gorda Panorama" fill className="object-cover" priority />
+        <Image src="/VG.jpg" alt="Virgin Gorda Panorama" fill className="object-cover" priority />
         <div className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white text-center px-4">
             Things to Do on Virgin Gorda, BVI
@@ -136,7 +130,7 @@ export default function ThingsToDo() {
 
       <div className="container mx-auto px-4 py-16">
         <div className="prose max-w-none mb-16">
-          <p className="text-lg text-gray-700 leading-relaxed">
+          <p className="text-lg text-white-700 leading-relaxed">
             Discover the beauty and adventure that Virgin Gorda has to offer. Whether you&apos;re looking for relaxation or
             excitement, there&apos;s something for everyone.
           </p>
@@ -146,7 +140,7 @@ export default function ThingsToDo() {
           <section>
             <div className="flex items-center gap-2 mb-6">
               <Compass className="w-8 h-8 text-blue-500" />
-              <h2 className="text-3xl font-semibold text-gray-800">Top Activities</h2>
+              <h2 className="text-3xl font-semibold text-white-800">Top Activities</h2>
             </div>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
               {activities[0].items.map((activity, index) => (
@@ -178,10 +172,10 @@ export default function ThingsToDo() {
           <section>
             <div className="flex items-center gap-2 mb-6">
               <Utensils className="w-8 h-8 text-blue-500" />
-              <h2 className="text-3xl font-semibold text-gray-800">Local Dining & Nightlife</h2>
+              <h2 className="text-3xl font-semibold text-white-800">Local Dining & Nightlife</h2>
             </div>
             <div className="prose max-w-none mb-8">
-              <p className="text-lg text-gray-700 leading-relaxed">
+              <p className="text-lg text-white-700 leading-relaxed">
                 Virgin Gorda offers a mix of casual beachside spots, fine dining, and lively bars where you can enjoy
                 fresh seafood, Caribbean flavors, and tropical cocktails.
               </p>
