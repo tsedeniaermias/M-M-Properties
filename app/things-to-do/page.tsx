@@ -10,39 +10,45 @@ const activities = [
       {
         name: "The Baths",
         description: "Walk through giant granite boulders, hidden caves, and crystal-clear pools.",
-        link: "https://www.bvinpt.org/the-baths",
+        // link: "https://www.bvinpt.org/the-baths",
+        link: "#",
         image: "/The Baths.jpg",
       },
       {
         name: "Snorkeling & Diving",
         description: "Discover vibrant coral reefs and marine life at famous spots like Devil's Bay and Savannah Bay.",
-        link: "https://www.bvitourism.com/diving",
+        // link: "https://www.bvitourism.com/diving",
+        link: "#",
         image: "/placeholder.svg",
       },
       {
         name: "Beaches & Swimming",
         description: "Relax on stunning beaches like Spring Bay and Mahoe Bay.",
-        link: "https://www.bvitourism.com/beaches",
+        // link: "https://www.bvitourism.com/beaches",
+        link: "#",
         image: "/placeholder.svg",
       },
       {
         name: "Boat Tours & Sailing",
         description: "Experience the BVI's beauty with island-hopping excursions and private charters.",
-        link: "https://www.bvitourism.com/sailing",
+        // link: "https://www.bvitourism.com/sailing",   
+        link: "#",
         image: "/placeholder.svg",
       },
       {
         name: "Hiking & Nature Trails",
         description: "Trek up Gorda Peak for breathtaking panoramic views.",
-        link: "https://www.bvitourism.com/hiking",
+        // link: "https://www.bvitourism.com/hiking",
+        link: "#",
         image: "/placeholder.svg",
       },
       {
         name: "Copper Mine Ruins",
         description:
           "Visit this historic 19th-century copper mine, offering a glimpse into the island's past with stunning coastal views.",
-        link: "https://www.bvinpt.org/copper-mine",
-        image: "/placeholder.svg",
+        // link: "https://www.bvinpt.org/copper-mine",
+        link: "#",
+        image: "/Copper_Mine_Ruins.jpg",
       },
     ],
   },
@@ -53,28 +59,32 @@ const restaurants = [
     name: "CocoMaya",
     description:
       "A stylish beachfront restaurant with Asian-Latin fusion cuisine, craft cocktails, and a cozy fire pit.",
-    link: "/things-to-do",
+    // link: "/things-to-do",
+    link: "#",
     image: "/cocomaya_2.jpg",
     tags: ["Asian-Latin Fusion", "Beachfront", "Cocktails"],
   },
   {
     name: "Hog Heaven",
     description: "Known for its famous BBQ ribs and breathtaking hilltop views.",
-    link: "https://www.hogheavenbvi.com",
+    // link: "https://www.hogheavenbvi.com",
+    link: "#",
     image: "/placeholder.svg",
     tags: ["BBQ", "Hilltop Views", "Casual"],
   },
   {
     name: "Top of the Baths",
     description: "A great post-hike spot with ocean views, fresh seafood, and refreshing drinks.",
-    link: "https://www.topofthebaths.com",
+    // link: "https://www.topofthebaths.com",
+    link: "#",
     image: "/top-of-the-bath.jpg",
     tags: ["Seafood", "Ocean Views", "Casual Dining"],
   },
   {
     name: "Nova Oil Nut Bay",
     description: "A stunning overwater restaurant, perfect for brunches with breathtaking marina views.",
-    link: "https://oilnutbay.com/dining",
+    // link: "https://oilnutbay.com/dining",
+    link: "#",
     image: "/nova_oil_1.jpg",
     tags: ["Brunch", "Marina Views", "Upscale"],
   },
@@ -82,7 +92,7 @@ const restaurants = [
     name: "Sugarcane Restaurant",
     description: "A refined dining experience with fresh seafood, gourmet dishes, and sunset views.",
     link: "#",
-    image: "/placeholder.svg",
+    image: "/sugarCane.jpg",
     tags: ["Fine Dining", "Seafood", "Sunset Views"],
   },
   {
@@ -95,7 +105,7 @@ const restaurants = [
   {
     name: "The Restaurant at Leverick Bay",
     description: "A great spot for seafood and steaks with live entertainment on select nights.",
-    link: "https://www.leverickbay.com/restaurant",
+    link: "#",
     image: "/placeholder.svg",
     tags: ["Seafood", "Live Entertainment", "Bay Views"],
   },
@@ -147,7 +157,7 @@ export default function ThingsToDo() {
                 <Link
                   href={activity.link}
                   key={index}
-                  target="_blank"
+                  
                   rel="noopener noreferrer"
                   className="block bg-white rounded-lg  overflow-hidden transform transition duration-300 hover:scale-105"
                 >
@@ -185,7 +195,7 @@ export default function ThingsToDo() {
                 <Link
                   href={restaurant.link}
                   key={index}
-                  target="_blank"
+                  
                   rel="noopener noreferrer"
                   className="group block bg-white rounded-lg  overflow-hidden transform transition duration-300 hover:scale-105"
                 >

@@ -95,7 +95,7 @@ export default function Home() {
           <div className="grid sm:grid-cols-2 lg:grid-cols-2 gap-8">
             {roomTypes.map((room, index) => (
               <Link href="/rooms-and-suites" key={index} className="group">
-                <div className="bg-white rounded-lg shadow-md overflow-hidden transition-transform duration-300 transform group-hover:scale-105">
+                <div className="bg-white rounded-lg shadow-md overflow-hidden transition-transform text-black duration-300 transform group-hover:scale-105">
                   <Image
                     src={room.image}
                     alt={room.name}

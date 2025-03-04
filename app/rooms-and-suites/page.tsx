@@ -4,13 +4,13 @@ import Link from 'next/link'
 const rooms = [
   {
     name: 'Single BedRoom Suite',
-    description: 'Spacious suite, king-size bed, living area, fully equipped kitchen and private balcony.',
+    description: 'Spacious suite, king/queen size bed, living area, fully equipped kitchen and private balcony.',
     amenities: ['King-size bed', 'Private balcony', 'Private bathroom', 'Free Wi-Fi', 'King/Queen beds', 'Living area'],
     maxOccupancy: 2,
   },
   {
     name: 'Double BedRoom Suite',
-    description: 'Perfect for families, with two bedrooms, a living area, and a fully equipped kitchen.',
+    description: 'Perfect for families, with two bedrooms, living area, and fully equipped kitchen.',
     amenities: ['Two bedrooms', 'Living area', 'Full kitchen', 'Private balcony','Free Wi-Fi', 'Queen/King beds'],
     maxOccupancy: 4,
   },
@@ -36,7 +36,7 @@ export default function RoomsAndSuites() {
                 <Image src="/bedroom_2.jpg" alt={room.name} width={400} height={300} className="h-full w-full object-cover" />
               </div>
               <div className="p-8">
-                <div className="uppercase tracking-wide text-sm text-indigo-500 font-semibold">{room.name}</div>
+                <div className="uppercase tracking-wide text-sm text-indigo-500 font-bold">{room.name}</div>
                 <p className="mt-2 text-gray-500">{room.description}</p>
                 <div className="mt-4">
                   <Link href="/contact" className="text-xl font-bold text-blue-600 hover:underline">
@@ -48,7 +48,7 @@ export default function RoomsAndSuites() {
                   <span className="ml-4 text-gray-600">Max Occupancy: {room.maxOccupancy}</span>
                 </div>
                 <div className="mt-4">
-                  <h3 className="text-lg font-semibold text-gray-900">Amenities:</h3>
+                  <h3 className="text-lg font-bold text-gray-900">Amenities:</h3>
                   <ul className="mt-2 grid grid-cols-2 gap-x-4 gap-y-2">
                     {room.amenities.map((amenity, index) => (
                       <li key={index} className="text-gray-600 flex items-center">
@@ -67,7 +67,7 @@ export default function RoomsAndSuites() {
       </div>
 
       <div className="mt-12 bg-gray-100 p-6 rounded-lg shadow">
-        <h2 className="text-2xl text-black font-semibold mb-4">All Suites Include:</h2>
+        <h2 className="text-2xl text-black font-bold mb-4">All Suites Include:</h2>
         <ul className="grid md:grid-cols-2 text-black gap-4">
           <li className="flex items-center">
             <svg className="h-5 w-5 mr-2 text-green-500" fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" stroke="currentColor">
