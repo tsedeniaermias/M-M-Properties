@@ -14,33 +14,13 @@ const activities = [
         link: "#",
         image: "/The Baths.jpg",
       },
-      {
-        name: "Snorkeling & Diving",
-        description: "Discover vibrant coral reefs and marine life at famous spots like Devil's Bay and Savannah Bay.",
-        // link: "https://www.bvitourism.com/diving",
-        link: "#",
-        image: "/placeholder.svg",
-      },
-      {
-        name: "Beaches & Swimming",
-        description: "Relax on stunning beaches like Spring Bay and Mahoe Bay.",
-        // link: "https://www.bvitourism.com/beaches",
-        link: "#",
-        image: "/placeholder.svg",
-      },
-      {
-        name: "Boat Tours & Sailing",
-        description: "Experience the BVI's beauty with island-hopping excursions and private charters.",
-        // link: "https://www.bvitourism.com/sailing",   
-        link: "#",
-        image: "/placeholder.svg",
-      },
+      
       {
         name: "Hiking & Nature Trails",
         description: "Trek up Gorda Peak for breathtaking panoramic views.",
         // link: "https://www.bvitourism.com/hiking",
         link: "#",
-        image: "/placeholder.svg",
+        image: "/GPeakSign.jpg",
       },
       {
         name: "Copper Mine Ruins",
@@ -69,7 +49,7 @@ const restaurants = [
     description: "Known for its famous BBQ ribs and breathtaking hilltop views.",
     // link: "https://www.hogheavenbvi.com",
     link: "#",
-    image: "/placeholder.svg",
+    image: "/Hog_Heaven.jpg",
     tags: ["BBQ", "Hilltop Views", "Casual"],
   },
   {
@@ -99,30 +79,10 @@ const restaurants = [
     name: "Winnie's Steakhouse",
     description: "A top choice for premium steaks and hearty meals in a relaxed atmosphere.",
     link: "#",
-    image: "/placeholder.svg",
+    image: "/winnie.jpg",
     tags: ["Steakhouse", "Relaxed", "Dinner"],
   },
-  {
-    name: "The Restaurant at Leverick Bay",
-    description: "A great spot for seafood and steaks with live entertainment on select nights.",
-    link: "#",
-    image: "/placeholder.svg",
-    tags: ["Seafood", "Live Entertainment", "Bay Views"],
-  },
-  {
-    name: "Chez Bamboo",
-    description: "Offers Caribbean, Asian, and Mediterranean flavors with a vibrant nightlife scene.",
-    link: "#",
-    image: "/placeholder.svg",
-    tags: ["Fusion", "Nightlife", "International"],
-  },
-  {
-    name: "Bath & Turtle",
-    description: "A local favorite for casual dining, great burgers, and island cocktails.",
-    link: "#",
-    image: "/placeholder.svg",
-    tags: ["Casual", "Burgers", "Local Favorite"],
-  },
+  
   
 ]
 
