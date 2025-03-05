@@ -48,7 +48,7 @@ export default function Contact() {
           
           <div className="text-center mt-8">
             <p className="text-xl">We look forward to hearing from you!</p>
-            <p className="mt-2 text-gray-600">For pricing inquiries or any questions, please don &apost; t hesitate to reach out.</p>
+            <p className="mt-2 text-white-600">For pricing inquiries or any questions, please don &apost; t hesitate to reach out.</p>
           </div>
         </div>
       </div>
