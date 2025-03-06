@@ -90,7 +90,7 @@ export default function ThingsToDo() {
   return (
     <div className="bg-gray-900 min-h-screen text-white">
       <div className="relative h-[90vh]">
-        <Image src="/VG_1.jpg" alt="Virgin Gorda Panorama" fill className="object-cover" priority />
+        <Image src="/VG_2.jpg" alt="Virgin Gorda Panorama" fill className="object-cover" priority />
         <div className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white text-center px-4">
             Things to Do on Virgin Gorda, BVI
@@ -100,7 +100,7 @@ export default function ThingsToDo() {
 
       <div className="container mx-auto px-4 py-16">
         <div className="prose max-w-none mb-16">
-          <p className="text-lg text-white-700 leading-relaxed">
+          <p className="text-lg text-white-700 leading-relaxed text-center">
             Discover the beauty and adventure that Virgin Gorda has to offer. Whether you&apos;re looking for relaxation or
             excitement, there&apos;s something for everyone.
           </p>
